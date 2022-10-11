@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.loading {
+    position: absolute;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url('images/loading.gif'); */
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+.logo {
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('about/icon/shellin logo.min.svg');
+    /* background-color: red; */
+}
